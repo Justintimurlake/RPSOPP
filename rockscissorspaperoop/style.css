@@ -1,0 +1,49 @@
+/* Body styles */
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  height: calc(100vh - 50px);
+  align-items: center;
+}
+
+/* Game styles */
+.gameDiv {
+  margin: 50px auto;
+  max-width: 500px;
+}
+
+.gameText {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.playerText {
+  color: #33b5e5;
+}
+
+.computerText {
+  color: #f44336;
+}
+
+.resultText {
+  color: #4caf50;
+}
+
+.choiceBtn {
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 10px 5px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.choiceBtn:hover {
+  background-color: #333;
+  color: #fff;
+}
